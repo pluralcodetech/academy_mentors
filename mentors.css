@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Manrope&family=Nunito+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: unset;
+    font-family:'Nunito Sans', sans-serif;
+    /* -webkit-tap-highlight-color: transparent; */
+  }
+html,
+body{
+  /* background-color:#E5E5E5; */
+  /* color: #ffffff; */
+  width: 100%;
+  position: relative;
+
+}
+.container{
+  margin: auto;
+}
+nav .container{
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    max-width: 100% !important;
+}
+.masterClass{
+    padding-top: 180px;
+    padding-bottom: 180px;
+    background-color: #E5E5E5;
+    
+}
+.details{
+    margin-right: 5%;
+    margin-left: 5%;
+}
+nav .downloadBrochure{
+    padding: 13.5px 15px;
+    font-family: Nunito Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    background: #4D30C7;
+    border: none;
+    color: #ffffff;
+    border-radius: 5px;
+}
+.dbrochure{
+    padding: 13.5px 32px;
+    font-family: Nunito Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    background:#EE9C21;
+    border: none;
+    color: #ffffff;
+    border-radius: 5px;
+    outline: none;
+}
+.contactSupport{
+    position: relative;
+    padding: 13.5px 32px 13.5px 68px;
+    font-family: Nunito Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    background:#FFFFFF;
+    color:#4A23B9;
+    border-radius: 5px;
+    border:1px solid #4A23B9;
+    margin: 0px 12px;
+    outline: none;
+    
+    
+}
+.contactSupport img{
+    position: absolute;
+    left: 15%;
+    right: 0.45%;
+    top: 25%;
+    bottom: 0%;
+
+/* background: #4A23B9; */
+}
+
