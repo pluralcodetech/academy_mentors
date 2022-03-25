@@ -5,46 +5,342 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mentors</title>
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/line-awesome/1.3.0/line-awesome/css/line-awesome.min.css" integrity="sha512-vebUliqxrVkBy3gucMhClmyQP9On/HAWQdKDXRaAlb/FKuTbxkjPKUyqVOxAcGwFDka79eTF+YXwfke1h3/wfg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="mentors.css">
     
 </head>
 <body>
-    <nav>
-        <div class="container mt-4 mb-4">
-            <img class="logo" src="./images/PluraCode Logo 4.png" alt="">
-            <button class="downloadBrochure">Download Brochure</button>
+<div class="modal fade" id="add" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-body">
+              <form class="modalForm">
+                <div class="form-group">
+                  <h5 class="modal-title mb-3" id="exampleModalLabel">Download our FREE Product Design Brochure</h5>
+                  <label for="exampleInputEmail1">FULL NAME:</label>
+                  <input type="text" class="form-control formControl" id="" placeholder="Enter Full Name:">
+                </div>
+                
+                <div class="form-group">
+                  <label for="exampleInputEmail1">EMAIL ADDRESS:</label>
+                  <input type="text" class="form-control formControl" id="" placeholder="Enter email:">
+                </div>
+      
+                <!-- <div class="form-group">
+                  <label for="exampleInputEmail1">EMAIL ADDRESS:</label>
+                  <input type="file" class="form-control formControl" id="" placeholder="Enter email:">
+                </div> -->
+                <center>
+                  <button type="button" class=" SaveChange">Download Brochure</button>
+                </center>
+                
+              </form>
+            </div>
+            <!-- <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+             
+            </div> -->
+          </div>
         </div>
+</div>
+    
+<nav>
+    <div class="navBar mb-4" style="width: 100%;">
+        <img style="max-width: 100%;" class="logo" src="./images/PluraCode Logo 4.png" alt="">
+        <button class="downloadBrochure d-none d-sm-none d-md-block d-lg-block" data-toggle="modal" data-target="#add">Download Brochure</button>
+        <button class="downloadBrochure2 d-block d-sm-block d-md-none d-lg-none" data-toggle="modal" data-target="#add"><span class="las la-file-download"></span> Brochure</button>
+    </div>
     </nav>
-    <!-- .col-xs-12 col-sm-12 col-md-4 col-lg-4 -->
-    <section class="masterClass">
+   
+    <section class="masterClass" style="width: 100%;">
         <div class="row details">
             <div class="col-sm-6 col-md-6">
-                <p>For Absolute Beginner</p>
+                <h3>For Absolute Beginner</h3>
                 <h4><span> Data Analytics</span> <br> Masterclass</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur <br>
+                <p class="text">Lorem ipsum dolor sit amet, consectetur <br>
                     adipiscing elit. Sapien commodo <br>
                     aliquam quis enim </p>
-                <button class="dbrochure">Download Brochure</button>
+                <button class="dbrochures">Download Brochure</button>
                 <button class="contactSupport"><img src="./images/Whatssap Vector.png"  alt="">Contact Support</button>
 
             </div>
-            <div class="col-sm-6 col-md-6">
+            <div class="col-sm-6 col-md-6 smilePic">
                 <img src="./images/Frame 86.png" alt="">
             </div>
+            
+            <div class="cardd">
+                <h3>Download Brochure</h3>
+                <p class="find">What you will find in the brochure</p>
+                <div class="desc">
+                    <div>
+                        <p><img src="./images/Vector.png" alt="">&nbsp; About the Program</p>
+                    </div>
+                    <div>
+                        <p><img src="./images/Vector.png" alt="">&nbsp; The Design for the Delivery</p>
+                    </div>
+                    <div>
+                        <p><img src="./images/Vector.png" alt="">&nbsp; Our Tech Mentorship Project</p>
+                    </div>
+                </div>
+                <button class="dbrochure" data-toggle="modal" data-target="#add">Download Brochure</button>
+            </div>
+            <img class="imgLady" src="./images/Group 111.png" alt="">
+            <img class="group" src="./images/Group 107.png" alt=""><p class="over">Over <span class="beginners">500 beginners</span> trained</p>
+            
         </div>
         
         
     </section>
 
+    <section class="nextCohort" style="width: 100%;">
+        <!-- <div class="container"> -->
+            <div class="row ">
+                <div class="col-md-7 col-lg-7 imgText">
+                    <div class="cohort">
+                        <p>Next Cohort</p>
+                        <h2>April 18</h2>
+                        <p>Saturday 10:00 AM - 1:00 PM WAT</p>
+                        <p>Sunday 10:00 AM - 1:00 PM WAT</p>
+                    </div>
+                    <div>
+                        <button class="cbrochure">Download Brochure</button>
+                    </div>
+                    
+                </div>
+                <div class="col-md-5 col-lg-5 imgText2">
+                    <img src="./images/Group 113.png" alt="">
+                </div>
+            </div>
+        <!-- </div> -->
+    </section>
+    <section>
+        <div class="alph">
+            
+            <div class="b">
+                
+            </div>
+                       
+            <div class="c">
+                
+            </div>
+            <div class="a">
+               
+            </div>            
+            
+        </div>
+    </section>
+
+    <section class="ukpabi">
+        <!-- <div class="container"> -->
+            <div class="card mb-3 founder" style="width: 100%;">
+                <div class="row" style="text-align: center">
+                  <div class="col-md-4">
+                    <img style="width: 100%;" src="./images/ukpabi.png" alt="...">
+                    <h1>Ukpabi Nduka</h1>
+                    <p>Founder, PluralCode Academy</p>
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body cardBody">
+                        <hr class="d-block d-sm-block d-md-none d-lg-none">
+                        <!-- <hr class="d-none d-sm-none d-md-block d-lg-block"> -->
+                      <p class="card-text aboutFounder">
+                        I got the best experience from the Utiva Product 
+                        Management program, it was a hands-on learning 
+                        experience as we were splitted into groups and
+                        given real life business cases to work on as a
+                        team. For me I enjoyed the expertises of the 
+                        facilitators and the quality of materials we were given.
+                        Above all the community style of learning is everything.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+    </section>
+
+    <section>
+        <div class="accordion" id="accordionExample">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h2 class="mb-0">
+                  <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit?
+                  </button>
+                </h2>
+              </div>
+          
+              <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div class="card-body">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor odio laoreet nam non at nunc <br>
+                    egestas. Enim id convallis nibh fringilla pretium vel in quis auctor. Accumsan lorem mattis <br>
+                    dolor pulvinar at nulla et, at odio. Vestibulum arcu mattis morbi aliquam vitae, nulla consectetur. <br>
+                    Posuere vivamus ut lectus velit id libero et, scelerisque.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h2 class="mb-0">
+                  <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit?
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                <div class="card-body">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor odio laoreet nam non at nunc <br>
+                    egestas. Enim id convallis nibh fringilla pretium vel in quis auctor. Accumsan lorem mattis <br>
+                    dolor pulvinar at nulla et, at odio. Vestibulum arcu mattis morbi aliquam vitae, nulla consectetur. <br>
+                    Posuere vivamus ut lectus velit id libero et, scelerisque.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit?
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                  <div class="card-body">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor odio laoreet nam non at nunc <br>
+                    egestas. Enim id convallis nibh fringilla pretium vel in quis auctor. Accumsan lorem mattis <br>
+                    dolor pulvinar at nulla et, at odio. Vestibulum arcu mattis morbi aliquam vitae, nulla consectetur. <br>
+                    Posuere vivamus ut lectus velit id libero et, scelerisque.
+                  </div>
+                </div>
+              </div>
+            <div class="card">
+              <div class="card-header" id="headingFour">
+                <h2 class="mb-0">
+                  <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit?
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                <div class="card-body">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor odio laoreet nam non at nunc <br>
+                    egestas. Enim id convallis nibh fringilla pretium vel in quis auctor. Accumsan lorem mattis <br>
+                    dolor pulvinar at nulla et, at odio. Vestibulum arcu mattis morbi aliquam vitae, nulla consectetur. <br>
+                    Posuere vivamus ut lectus velit id libero et, scelerisque.
+                </div>
+              </div>
+            </div>
+          </div>
+        <!-- <div class="row">
+            <div class="col-md-10 col-lg-10">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit?</p>
+            </div>
+            <div class="col-md-2 col-lg-2">
+                <img src="./images/arrow circle.png" alt="">
+            </div>
+            
+        </div>
+        <div class="row">
+            <div class="col-md-10 col-lg-10">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit?</p>
+            </div>
+            <div class="col-md-2 col-lg-2">
+                <img src="./images/arrow circle.png" alt="">
+            </div>
+            
+        </div>
+        <div class="row">
+            <div class="col-md-10 col-lg-10">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor odio laoreet nam non at nunc egestas. <br>
+                    Enim id convallis nibh fringilla pretium vel in quis auctor. Accumsan lorem mattis dolor pulvinar at <br>
+                    nulla et, at odio. Vestibulum arcu mattis morbi aliquam vitae, nulla consectetur. Posuere vivamus ut <br>
+                    lectus velit id libero et, scelerisque.</p>
+            </div>
+            <div class="col-md-2 col-lg-2">
+                <img src="./images/arrow circle up.png" alt="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-10 col-lg-10">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit?</p>
+            </div>
+            <div class="col-md-2 col-lg-2">
+                <img src="./images/arrow circle.png" alt="">
+            </div>
+            
+        </div>
+        <div class="row">
+            <div class="col-md-10 col-lg-10">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit?</p>
+            </div>
+            <div class="col-md-2 col-lg-2">
+                <img src="./images/arrow circle.png" alt="">
+            </div>
+            
+        </div> -->
+    </section>
+
+    <div class="footer-extend" data-aos="fade-up">
+        <section class="section-margin">
+            <footer class="footer-section">
+                <div class="continer">
+                    <div class="footer-content d-flex justify-content-between">
+                        <div class="footer-image">
+                            <img src="./images/PluralCode-logo.png" alt="">
+                            <p>4b Toyin Street Ikeja, Lagos State<br>
+    
+                                +(234) 803-796-1731<br>
+                                
+                                support@pluralcode.academy
+                            </p>
+    
+                            <div class="footer-social-link mr-5">
+                              <!-- <img src="./images/inst.png" alt="inst"> -->
+                              <!-- <img src="./images/youppl.png" alt="fb">     -->
+                              <img src="./images/fb.png" alt="fb">                           
+                              <img src="./images/you.png" alt="you">
+                              <img src="./images/twit.png" alt="twit">
+                            </div>
+                        </div>
+                        <div class="footer-explore">
+                            <h3>Explore</h3>
+                            <p>Enroll Today<br>
+                                Digital Marketing<br>
+                                Become a Mentor
+                            </p>
+                        </div>
+                        <div class="footer-course">
+                            <p>Contact Us<br>
+                               Website Design
+                            </p>
+                        </div>
+                        <div class="footer-about">
+                            <h3>About Us</h3>
+                            <p>PluralCode Academy exists for the sole<br> 
+                                purpose of creating a major impact by<br> 
+                                raising the next generation<br>
+                                of Africa's tech geniuses.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </section>
+        <div class="sub-footer">
+            <p>&copy; 2021 Pluralcode Technologies</p>
+        </div>
+      </div>
 
 
 
 
 
 
-
+    
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
     <script src="mentor.js"></script>
