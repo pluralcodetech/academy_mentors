@@ -110,7 +110,14 @@ nav .downloadBrochure, .downloadBrochure2{
   position: relative;
   margin-right: 5%;
   margin-left: 5%;
+ 
 }
+/* .anim{
+  transition: transform .5s; /* Animation */
+
+/* .anim:hover{
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+
 @media screen and (max-width:600px) {
   .navBar .logo{
    width: 50% !important;
@@ -167,7 +174,7 @@ nav .downloadBrochure, .downloadBrochure2{
     display: none;
   }
   .dbrochures{
-    padding: 10.5px 15px 10.5px 15px;
+    padding: 10.5px 21px 10.5px 21px;
     font-size: 12px;
 
   }
@@ -186,7 +193,7 @@ nav .downloadBrochure, .downloadBrochure2{
     
     font-family: 'Nunito Sans';
     font-style: normal;
-    font-weight: 800;
+    font-weight: 800 bolder;
     font-size: 64px;
     line-height: 84px;
     /* or 114% */
@@ -266,10 +273,18 @@ nav .downloadBrochure, .downloadBrochure2{
   text-align: center;
 }
 .cardd .desc{
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
+
+.smilePic img{
+  transition: transform .5s; /* Animation */
+}
+.smilePic img:hover{
+  transform: scale(0.9); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
 @media screen and (max-width:600px) {
   .details h3{
     font-size: 18px;
@@ -290,15 +305,17 @@ nav .downloadBrochure, .downloadBrochure2{
     top: 0;
     left: 0;
     margin-top: 50px;
-    border-radius: 0px;
+    border-radius: 20px;
+    
   }
+  
   .smilePic{
     display: none;
   }
   .cardd h3{
     padding-top: 20px;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 25px;
     line-height: 40px;
   }
   .cardd p{
@@ -521,7 +538,13 @@ nav .downloadBrochure, .downloadBrochure2{
   /* letter-spacing: 0.20000000298023224px; */
   text-align: left;
     
-}    
+}
+.imgText2 img{
+  transition: transform .5s; /* Animation */
+}
+.imgText2 img:hover{
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
 @media screen and (max-width:600px) {
   .nextCohort .imgText{
     display: grid;
@@ -568,7 +591,7 @@ nav .downloadBrochure, .downloadBrochure2{
     padding-right: 0;
     max-width: 100% !important;
   }
-  .hr{
+  hr{
     background-color: #fff;
     color: #FF9A00;
   }
