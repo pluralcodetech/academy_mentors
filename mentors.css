@@ -516,29 +516,29 @@ nav .downloadBrochure, .downloadBrochure2{
     flex-grow: 0;
     margin: 0px 0px; */
 }
-.founder{
-  padding-top: 100px;
+.testify{
+  padding-top: 50px;
   padding-bottom: 100px;
 }
-.ukpabi .founder{
+.test .testify{
     /* background-color: blue; */
     background: linear-gradient(44.71deg, #4A23B9 2.16%, #3302BE 86.32%);
     color: #ffffff;
     padding-left: 8%;
     padding-right: 8%;
 }
-.ukpabi .founder h1{
-  padding-top: 20px;
+.test .testify h1{
+  /* padding-top: 20px; */
   color: #fff;
   font-family: Nunito Sans;
-  font-size: 36px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 600;
   line-height: 40px;
   letter-spacing: 0.20000000298023224px;
 }
 
-.ukpabi .founder p{
+.test .testify p{
   font-family: Nunito Sans;
   font-size: 18px;
   font-style: normal;
@@ -547,8 +547,8 @@ nav .downloadBrochure, .downloadBrochure2{
   letter-spacing: 0.20000000298023224px;
 
 }
-.ukpabi .founder .aboutFounder{
-  padding-top: 100px;
+.test .testify .abouttestify{
+  padding-top: 107px;
   font-family: Nunito Sans;
   font-size: 18px;
   font-style: normal;
@@ -556,7 +556,15 @@ nav .downloadBrochure, .downloadBrochure2{
   /* line-height: 40px; */
   /* letter-spacing: 0.20000000298023224px; */
   text-align: left;
+  max-width:fit-content;
+  padding-right: 70px;
+  padding-bottom: 0px;
     
+}
+.imgBox{
+  background: url("./images/testimony\ pic.png") no-repeat top center /contain;
+ 
+  height: 300%;
 }
 .imgText2 img{
   transition: transform .5s; /* Animation */
@@ -590,12 +598,17 @@ nav .downloadBrochure, .downloadBrochure2{
     font-weight: 700;
     line-height: 20px;
   }
-  .founder img{
+  .testify img{
     max-width: 100%;
   }
-  .ukpabi .founder .aboutFounder{
-    max-width: 100%;
-    padding-top: 50px;
+  .test .testify .abouttestify{
+    /* display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px; */
+    /* width: 100%; */
+    padding-top: 323px;
     font-family: Nunito Sans;
     font-size: 18px;
     font-style: normal;
@@ -603,6 +616,8 @@ nav .downloadBrochure, .downloadBrochure2{
     line-height: 40px;
     letter-spacing: 0.20000000298023224px;
     line-break: auto;
+    text-align: center;
+    padding-right: 0px;
     
   }
   .cardBody{
@@ -655,200 +670,194 @@ nav .downloadBrochure, .downloadBrochure2{
     text-align: left;
     color: #D6D6D6;
 }
+
+.footer-course p {
+  font-family: "Nunito Sans", cursive;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #D6D6D6;
+}
+
+.footer-about h3 {
+  font-family: "Nunito Sans", cursive;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 31px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #D6D6D6;
+}
+
+.footer-about p {
+  font-family: "Nunito Sans", cursive;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: #D6D6D6;
+}
   
-  .footer-course p {
-    font-family: "Nunito Sans", cursive;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 27px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #D6D6D6;
+@media screen and (max-width: 600px) {
+  .footer-content {
+    flex-direction: column;
   }
-  
-  .footer-about h3 {
-    font-family: "Nunito Sans", cursive;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 31px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #D6D6D6;
-  }
-  
-  .footer-about p {
-    font-family: "Nunito Sans", cursive;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0em;
-    color: #D6D6D6;
-  }
-  
-  @media screen and (max-width: 600px) {
-    .footer-content {
-      flex-direction: column;
-    }
-  
-    .footer-image {
-      text-align: center;
-    }
-  
-    .footer-image p {
-      text-align:center;
-    }
-  
-    .footer-social-link {
-      display: flex;
-      justify-content: center;
-      margin: 0px auto;
-  
-    }
-  
-    .footer-explore h3 {
-      text-align: center;
-      margin-top: 20px;
-    }
-  
-    .footer-explore p {
-      text-align: center;
-    }
-  
-    .footer-course p {
-      text-align: center;
-      margin-top: 30px;
-    }
-  
-    .footer-about h3 {
-      text-align: center;
-      margin-top: 30px;
-    }
-  
-    .footer-about p {
-      text-align: center;
-    }
-    .footer-section {
-      background-color: #090C16;
-      padding: 50px 50px 150px 20px;
-    }
-  }
-  .sub-footer {
-    width: 300px;
-    border-radius: 0px;
-    padding: 10px;
-    background-image: linear-gradient(to right, #3F64F7, #5319B2);
-  }
-  
-  .sub-footer p {
-    font-family: "Nunito Sans", cursive;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 10px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #ffffff;
+
+  .footer-image {
     text-align: center;
-    margin: 3% auto;
   }
-  
-  .footer-extend {
-    position: relative;
+
+  .footer-image p {
+    text-align:center;
   }
-  
-  .sub-footer {
-    position: absolute;
-    bottom: 0;
+
+  .footer-social-link {
+    display: flex;
+    justify-content: center;
+    margin: 0px auto;
+
   }
-  
-  /* 
-  @media screen and (max-width:600px) {
-    .sub-footer {
-      display: none;
-      /* position: relative;
-      bottom: 0;
-      width: 300px;
-      border-radius: 0px;
-      padding: 10px;
-      background-image: linear-gradient(to right, #3F64F7, #5319B2); */
-    .footer-extend{
-      position: relative;
-    }
-  
-  .modal-content{
-    border-radius: 15px;
-    Width:85%;
-    margin-right: auto;
-    margin-left: auto;
-    height: auto;
+
+  .footer-explore h3 {
+    text-align: center;
+    margin-top: 20px;
   }
-  .modalForm{
-    color:#FFB341;
-    box-sizing: border-box;
-    width: 100%;
-    
-    
+
+  .footer-explore p {
+    text-align: center;
   }
-  .modal-title{
-    font-weight:bolder;
-    color: #090C16;
-    text-align: left;
-    font-family:'Nunito Sans', sans-serif;
-    margin: 10px;
+
+  .footer-course p {
+    text-align: center;
+    margin-top: 30px;
   }
-  
-  .formControl,
-  .formControl:hover,
-  .form-control:focus{
-    width: 100%;
-    border: 2px solid #FFB341;
-    border-radius: 10px;
-    color: #000;
-  
+
+  .footer-about h3 {
+    text-align: center;
+    margin-top: 30px;
   }
-  
-  .SaveChange {
-    background: linear-gradient(225.55deg, #FFB341 -11.25%, #DF8806 79.43%);
-    outline: none;
-    border: none;
-    padding: 10px 70px;
-    font-family: "Nunito Sans", sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 52px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #fff;
-    border-radius: 5px;
-  
-    /* margin-left:10% !important;
-    margin-right: 10% !important; */
+
+  .footer-about p {
+    text-align: center;
   }
-  
-  
-  @media screen and (max-width: 600px) {
-    .modal-title {
-      font-size: 16px;
-    }
-    .SaveChange{
-      font-size: 16px;
-      line-height: 30px;
-      padding: 10px 21px;
-    }
-  
+  .footer-section {
+    background-color: #090C16;
+    padding: 50px 50px 150px 20px;
   }
+}
+.sub-footer {
+  width: 300px;
+  border-radius: 0px;
+  padding: 10px;
+  background-image: linear-gradient(to right, #3F64F7, #5319B2);
+}
+
+.sub-footer p {
+  font-family: "Nunito Sans", cursive;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 10px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  text-align: center;
+  margin: 3% auto;
+}
+
+.footer-extend {
+  position: relative;
+}
+
+.sub-footer {
+  position: absolute;
+  bottom: 0;
+}
   
-  @media (min-width: 576px){
-      .modal-dialog {
-        max-width: 488px;
-        margin: 1.75rem auto;
-    }
+.footer-extend{
+  position: relative;
+}
+
+
+form{
+  width:600px;
+  padding: 20px;
+}
+.form-control{
+  margin-bottom: 20px;
+  padding: 30px 20px;
+  background: none;
+  color: #fff;
+  box-shadow: none !important;
+  outline: none !important;
   
-  }
+}
+.form-control:focus, .form-control:active, .form-control:hover {
+  background: none;
+  color: #fff;
+  border-color: none;
+  outline: none;
+  border-color: #ffffff;
+}
+
+
+
+.modal-content{
+  border-radius: 15px;
+  Width:85%;
+  margin-right: auto;
+  margin-left: auto;
+  height: auto;
+}
+.modalForm{
+  color:#FFB341;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.modal-title{
+  font-weight:bolder;
+  color: #090C16;
+  text-align: left;
+  font-family:'Nunito Sans', sans-serif;
+  margin: 10px;
+}
+
+.formControl,
+.formControl:hover,
+.form-control:focus{
+  width: 100%;
+  border: 2px solid #FFB341;
+  border-radius: 10px;
+  color: #000;
+
+}
+
+.SaveChange {
+  background: linear-gradient(225.55deg, #FFB341 -11.25%, #DF8806 79.43%);
+  outline: none;
+  border: none;
+  padding: 10px 70px;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+  border-radius: 5px;
+
+  /* margin-left:10% !important;
+  margin-right: 10% !important; */
+}
+
+
 @media screen and (max-width: 600px) {
   .modal-title {
     font-size: 16px;
@@ -861,14 +870,14 @@ nav .downloadBrochure, .downloadBrochure2{
 
 }
 
-  
 @media (min-width: 576px){
-.modal-dialog {
-  max-width: 488px;
-  margin: 1.75rem auto;
-}
-}
+  .modal-dialog {
+    max-width: 488px;
+    margin: 1.75rem auto;
+  }
 
+}
+    
   
 .panel-title[aria-expanded="true"]::after {
   content: "\f106";

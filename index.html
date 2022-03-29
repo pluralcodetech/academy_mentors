@@ -15,45 +15,41 @@
 </head>
 <body>
 <div class="modal fade" id="add" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
+    <div class="modal-dialog">
+        <div class="modal-content">
             <div class="modal-body">
-              <form class="modalForm">
-                <div class="form-group">
-                  <h5 class="modal-title mb-3" id="exampleModalLabel">Download our FREE Product Design Brochure</h5>
-                  <label for="exampleInputEmail1">FULL NAME:</label>
-                  <input type="text" class="form-control formControl" id="" placeholder="Enter Full Name:">
-                </div>
-                
-                <div class="form-group">
-                  <label for="exampleInputEmail1">EMAIL ADDRESS:</label>
-                  <input type="text" class="form-control formControl" id="" placeholder="Enter email:">
-                </div>
-      
-                <!-- <div class="form-group">
-                  <label for="exampleInputEmail1">EMAIL ADDRESS:</label>
-                  <input type="file" class="form-control formControl" id="" placeholder="Enter email:">
-                </div> -->
-                <center>
-                  <button type="button" class=" SaveChange">Download Brochure</button>
-                </center>
-                
-              </form>
-            </div>
-            <!-- <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-             
-            </div> -->
-          </div>
+                <form class="modalForm">
+                    <div class="form-group">
+                        <h5 class="modal-title mb-3" id="exampleModalLabel">Download our FREE Product Design Brochure</h5>
+                        <label for="exampleInputEmail1">FULL NAME:</label>
+                        <input type="text" class="form-control formControl" id="" placeholder="Enter Full Name:">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">EMAIL ADDRESS:</label>
+                        <input type="text" class="form-control formControl" id="" placeholder="Enter email:">
+                    </div>
+        
+                    <!-- <div class="form-group">
+                    <label for="exampleInputEmail1">EMAIL ADDRESS:</label>
+                    <input type="file" class="form-control formControl" id="" placeholder="Enter email:">
+                    </div> -->
+                    <center>
+                        <button type="button" class=" SaveChange">Download Brochure</button>
+                    </center>
+            
+                </form>
+            </div>    
         </div>
-</div>
-    
-<nav>
-    <div class="navBar mb-4" style="width: 100%;">
-        <img style="max-width: 100%;" class="logo" src="./images/PluraCode Logo 4.png" alt="">
-        <button class="downloadBrochure d-none d-sm-none d-md-block d-lg-block" data-toggle="modal" data-target="#add">Download Brochure</button>
-        <button class="downloadBrochure2 d-block d-sm-block d-md-none d-lg-none" data-toggle="modal" data-target="#add"><span class="las la-file-download"></span> Brochure</button>
     </div>
+</div>
+
+    <nav>
+        <div class="navBar" style="width: 100%;">
+            <img class="logo" src="./images/PluraCode Logo 4.png" alt="">
+            <button class="downloadBrochure d-none d-sm-none d-md-block d-lg-block" data-toggle="modal" data-target="#add">Download Brochure</button>
+            <button class="downloadBrochure2 d-block d-sm-block d-md-none d-lg-none" data-toggle="modal" data-target="#add"><span class="las la-file-download"></span> Brochure</button>
+        </div>
     </nav>
    
     <section class="masterClass" style="width: 100%;">
@@ -64,7 +60,7 @@
                 <p class="text">Lorem ipsum dolor sit amet, consectetur <br>
                     adipiscing elit. Sapien commodo <br>
                     aliquam quis enim </p>
-                <button class="dbrochures">Download Brochure</button>
+                <button class="dbrochures" data-toggle="modal" data-target="#add">Download Brochure</button>
                 <button class="contactSupport"><img src="./images/Whatssap Vector.png"  alt="">Contact Support</button>
             </div>
             <div class="col-sm-6 col-md-6 smilePic">
@@ -108,7 +104,7 @@
                         <p>Sunday 10:00 AM - 1:00 PM WAT</p>
                     </div>
                     <div>
-                        <button class="cbrochure">Download Brochure</button>
+                        <button class="cbrochure" data-toggle="modal" data-target="#add">Download Brochure</button>
                     </div>
                     
                 </div>
@@ -135,32 +131,31 @@
         </div>
     </section>
 
-    <section class="ukpabi">
+    <section class="test">
         <!-- <div class="container"> -->
-            <div class="card mb-3 founder" style="width: 100%;">
-                <div class="row" style="text-align: center">
-                  <div class="col-md-4">
-                    <img style="width: 100%;" src="./images/ukpabi.png" alt="...">
-                    <h1>Ukpabi Nduka</h1>
-                    <p>Founder, PluralCode Academy</p>
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body cardBody">
-                        <hr class="d-block d-sm-block d-md-none d-lg-none">
-                        <!-- <hr class="d-none d-sm-none d-md-block d-lg-block"> -->
-                      <p class="card-text aboutFounder">
-                        I got the best experience from the Utiva Product 
-                        Management program, it was a hands-on learning 
-                        experience as we were splitted into groups and
-                        given real life business cases to work on as a
-                        team. For me I enjoyed the expertises of the 
-                        facilitators and the quality of materials we were given.
-                        Above all the community style of learning is everything.
-                      </p>
+        <div class="card mb-3 testify" style="width: 100%;">
+            <div class="row" style="text-align: center">
+                <div class="col-md-4">
+                    <div class="imgBox">
+                        
                     </div>
-                  </div>
+               
+                <h1>Sammy Damilola</h1>
+                <p>Data Analyst</p>
                 </div>
-              </div>
+                <div class="col-md-8">
+                    <div class="card-body cardBody">
+                        <!-- <hr class="d-block d-sm-block d-md-none d-lg-none"> -->
+                        <!-- <hr class="d-none d-sm-none d-md-block d-lg-block"> -->
+                        <p class="card-text abouttestify">
+                            My learning experience at Pluralcode Academy Data Analytics Class was awesome.
+                            The mentors were on point and the classes were in-depth and practical. Overall,
+                            the things I learned have been benefitial for my business and team.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </section>
 
@@ -235,7 +230,92 @@
                 </div>
               </div>
             </div>
-          </div>
+            <div class="card">
+                <div class="card-header" id="headingFive">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit?
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                  <div class="card-body">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor odio laoreet nam non at nunc <br>
+                      egestas. Enim id convallis nibh fringilla pretium vel in quis auctor. Accumsan lorem mattis <br>
+                      dolor pulvinar at nulla et, at odio. Vestibulum arcu mattis morbi aliquam vitae, nulla consectetur. <br>
+                      Posuere vivamus ut lectus velit id libero et, scelerisque.
+                  </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingSix">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit?
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+                  <div class="card-body">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor odio laoreet nam non at nunc <br>
+                      egestas. Enim id convallis nibh fringilla pretium vel in quis auctor. Accumsan lorem mattis <br>
+                      dolor pulvinar at nulla et, at odio. Vestibulum arcu mattis morbi aliquam vitae, nulla consectetur. <br>
+                      Posuere vivamus ut lectus velit id libero et, scelerisque.
+                  </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingSeven">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit?
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample">
+                  <div class="card-body">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor odio laoreet nam non at nunc <br>
+                      egestas. Enim id convallis nibh fringilla pretium vel in quis auctor. Accumsan lorem mattis <br>
+                      dolor pulvinar at nulla et, at odio. Vestibulum arcu mattis morbi aliquam vitae, nulla consectetur. <br>
+                      Posuere vivamus ut lectus velit id libero et, scelerisque.
+                  </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingEight">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit?
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordionExample">
+                  <div class="card-body">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor odio laoreet nam non at nunc <br>
+                      egestas. Enim id convallis nibh fringilla pretium vel in quis auctor. Accumsan lorem mattis <br>
+                      dolor pulvinar at nulla et, at odio. Vestibulum arcu mattis morbi aliquam vitae, nulla consectetur. <br>
+                      Posuere vivamus ut lectus velit id libero et, scelerisque.
+                  </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingNine">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit?
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordionExample">
+                  <div class="card-body">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor odio laoreet nam non at nunc <br>
+                      egestas. Enim id convallis nibh fringilla pretium vel in quis auctor. Accumsan lorem mattis <br>
+                      dolor pulvinar at nulla et, at odio. Vestibulum arcu mattis morbi aliquam vitae, nulla consectetur. <br>
+                      Posuere vivamus ut lectus velit id libero et, scelerisque.
+                  </div>
+                </div>
+            </div>
+        </div>
         <!-- <div class="row">
             <div class="col-md-10 col-lg-10">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit?</p>
