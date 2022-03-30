@@ -122,11 +122,11 @@ nav .downloadBrochure, .downloadBrochure2{
 }
  
 .masterClass{
-  /* position: relative; */
   max-width: 100%;
   padding-top: 250px;
   padding-bottom: 280px;
   background-color: #E5E5E5;
+  position: relative;
   
 }
 .newWrap{
@@ -269,20 +269,21 @@ nav .downloadBrochure, .downloadBrochure2{
 }
 
 .cardd{
+  /* display: none; */
     position: absolute;
     z-index: 1;
     background-color:#4D30C7;
     color: #FFFFFF;
     border-radius: 20px;
-    width: 450px;
+    width: 34%;
     /* left: 820px; */
     top: 23%;
-    right: -7%;
-    padding-left: 5%;
+    right: -50px;
+    padding-left: 7%;
     padding-right: 5%;
     text-align: left;
     padding-bottom: 50px;
-    height: 380px;
+    height: 371px;
 
 }
 .cardd h3{
@@ -387,6 +388,7 @@ nav .downloadBrochure, .downloadBrochure2{
   .cardd .find{
     padding-bottom: 10px;
   }
+
   .details .imgLady{
     display: none;
   }
@@ -398,9 +400,100 @@ nav .downloadBrochure, .downloadBrochure2{
   }
 }
 
-.smilePic img{
- max-width: 100%;
- height: 347px;
+@media only screen and (max-width: 1024px) {
+  .cardd{
+    right: -10px;
+    padding-right: 20px;
+    padding-left: 35px;
+  }
+
+  .cardd h3 {
+    font-size: 22px;
+  }
+
+  .desc {
+    padding-top: 30px;
+  
+}
+}
+
+
+@media only screen and (max-width: 1104px) {
+  .cardd{
+    right: -10px;
+    padding-right: 20px;
+    padding-left: 35px;
+  }
+
+  .cardd h3 {
+    font-size: 22px;
+  }
+  .desc {
+    padding-top: 30px;
+  
+}
+}
+
+
+@media only screen and (max-width: 1200px) {
+  .cardd{
+    right: -10px;
+    padding-right: 20px;
+    padding-left: 35px;
+  }
+
+  .cardd h3 {
+    font-size: 22px;
+  }
+  .desc {
+    padding-top: 30px;
+  
+}
+}
+
+
+@media only screen and (max-width: 1280px) {
+  .cardd{
+    right: -10px;
+    padding-right: 20px;
+    padding-left: 35px;
+  }
+
+  .cardd h3 {
+    font-size: 22px;
+  }
+  .desc {
+    padding-top: 30px;
+  
+}
+}
+
+
+@media only screen and (max-width: 1366px) {
+  .cardd{
+    right: -20px;
+  }
+  .desc {
+    padding-top: 30px;
+  
+}
+}
+
+.wrapper{
+  /* position: absolute; */
+  background: url("/images/Frame\ 86.png") no-repeat center center /cover;
+  /* max-width: 100%; */
+  height: 347px;
+  /* left: 18%; */
+  /* top: 60%; */
+}
+@media only screen and (max-width: 1200px){
+
+  .smilePic img{
+    
+    left: 8%;
+    
+  }
 }
 .desc>div{
   flex: 1 0 50%;
